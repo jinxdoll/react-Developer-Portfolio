@@ -1,0 +1,30 @@
+{
+  "name": "aimeemattsonPortfolio",
+  "version": "1.0.0",
+  "description": "Now that you've worked with React and have multiple projects to share, you'll be updating your portfolio and other materials to build toward being employer competitive. Creating a portfolio using React will help set you apart from other developers whose portfolios do not use some of the latest technologies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+       "deploy": "gh-pages -b master -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinxdoll/aimeemattsonPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinxdoll/aimeemattsonPortfolio/issues"
+  },
+  "homepage": " https://jinxdoll.github.io/aimeemattsonPortfolio/",
+  "dependencies": {
+    "axe-core": "^4.2.0",
+    "gh-pages": "^3.1.0",
+    "travis": "^0.1.1",
+    "yarn": "^1.22.10"
+  }
+}
